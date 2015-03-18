@@ -7,18 +7,30 @@ package JP_3;
 //: JP_3/JP_3_7.java
 
 import java.util.*;
-import net.mindview.util.Print.*;
-
+import static net.mindview.util.Print.*;
 
 
 public class JP_3_7 {
 
     public static void main(String[] args) {
         Random randCoin = new Random();
-        int choice = randCoin.nextInt(1);
 
-        print("Hello");
+        int choice = randCoin.nextInt(2);
+        print(choice);
+
+        choice = randCoin.nextInt(2);
+        print(choice);
+
+        choice = randCoin.nextInt(2);
+        print(choice);
+
+        choice = randCoin.nextInt(2);
+        print(choice);
+
+        choice = randCoin.nextInt(2);
+        print(choice);
 
     }
 
 }
+
