@@ -10,6 +10,14 @@ public class CastingOperators {
 
         long lng = (long)i;
         System.out.println(lng);
+
+        String s = "123";
+        System.out.println(Integer.valueOf(s));
+
+        char a = 'a';
+        char b = 'b';
+
+        System.out.println((int)(a));
     }
 
 }
